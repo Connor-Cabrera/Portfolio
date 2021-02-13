@@ -1,0 +1,38 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   27.21.14.6140
+Begin MonoManager ReloadAssembly
+Platform assembly: A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.018 seconds
+Platform assembly: A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: A:\Users\Connor Cabrera\Desktop\Portfolio\Game Design\The Neighborhood PC\The Neighborhood PC_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 144Hz; virtual: 5120x1443 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.689100 ms
+Setting up 10 worker threads for Enlighten.
+  Thread -> id: 2b60 -> priority: 1 
+  Thread -> id: 35a0 -> priority: 1 
+  Thread -> id: 14cc -> priority: 1 
+  Thread -> id: 3820 -> priority: 1 
+  Thread -> id: 1e6c -> priority: 1 
+  Thread -> id: 494c -> priority: 1 
+  Thread -> id: 39e8 -> priority: 1 
+  Thread -> id: 67ac -> priority: 1 
+  Thread -> id: 60c8 -> priority: 1 
+  Thread -> id: 2644 -> priority: 1 
