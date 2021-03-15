@@ -4,12 +4,13 @@
 		<meta charset="UTF-8">
 		<title>Home</title>
 		<link rel="icon" href="images/smile.png">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		
+		<div id="slidingBackground"></div>
 		<header lang="en">
 		<!-- Welcome -->
-			<h1 class="welcome">Welcome to Fitness Planet</h1><hr>
+			<h1 class="welcome">Welcome to Fitness Planet</h1>
 		</header>
 		
 		<nav class="nav">
@@ -17,20 +18,30 @@
 			<a href="index.html">Home</a>
 			<a href="html/services.html">Services</a>
 			<a href="html/about.html">About Us</a>
-		</nav><hr>
+		</nav><br>
 		
 		<main lang="en">
 		<!-- Short Intro -->
-			<p id="intro"><b>Fitness Planet</b> is so much more than a gym membership. When you're not in here with us putting in the work use
+			<p id="intro"><b>Fitness Planet</b> is so much more than a gym membership.<br>When you're not in here with us putting in the work use
 			our wide array of tools to plan your diet and workout plan.<br><br>
 			Still not convinced? Listen to what <u>Arnold Schwarzenegger</u> has to say:</p>
 			
 			
-			<video width="852" height="480" controls autoplay muted>
-				<source src="video/speech.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			</video>
-		</main><hr>
+			<div id="grid-container">
+				<div>
+					<img src="images/gym2.jpg" alt="Gym Photo" width="480"><br><br>
+				</div>
+				<div>
+					<video width="852" height="480" controls autoplay muted>
+						<source src="video/speech.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div>
+					<img src="images/gym3.jpeg" alt="Gym Photo" width="480"><br><br>
+				</div>
+			</div>
+		</main><br>
 		
 		<section lang="en" id="info">
 		<!-- Info Section -->
@@ -80,11 +91,12 @@
 					</tr>
 				</tbody>
 			</table>
-		</section><hr>
+		</section>
 		
 		<footer lang="en">
 		<!-- Author: Connor Cabrera, Date Developed 2/9/21 -->
-			<p class="Author">Created by: Connor Cabrera on 2/9/21</p>
+			<p class="author">Created by: Connor Cabrera on 2/9/21<br>
+			Last Edited: 3/14/21</p><br>
 		</footer>
 
 	</body>

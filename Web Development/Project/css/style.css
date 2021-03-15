@@ -1,0 +1,121 @@
+@font-face{
+    font-family: 'NasalizationRg-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NasalizationRg-Regular'), url("../misc_data/nasalization rg.woff") format("woff");
+}
+
+@keyframes flyThroughSpace{
+	0%{
+		background-position: 100vw 0;
+	}
+	100%{
+		background-position: 0 0;
+	}
+}
+
+html{
+	 
+	background-image: url("../images/Website_Project_Background.png");
+
+	height: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	background-color: lightblue;
+	
+}
+
+ul{
+	
+	list-style-image: url("../images/globe.png");
+	
+}
+
+table{
+	background-color: white;
+}
+
+main{
+	font-size: 120%;
+}
+
+#slidingBackground{
+	padding: 5px;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.5;
+	background: url("../images/space.png") repeat;
+	height: 100%;
+	width: 99%;
+	animation: flyThroughSpace 3s linear infinite;
+	
+}
+
+.welcome{
+	font-family: 'NasalizationRg-Regular';
+	font-size: 400%;
+	text-shadow: 3px 3px white;
+	text-align: center;
+	background: linear-gradient(green, lightblue);
+	
+	
+}
+
+.nav > a:link{
+	font-family: 'NasalizationRg-Regular';
+	font-size: 150%;
+	color: white;
+	
+}
+.nav > a:visited{
+	color: black;
+}
+.nav > a:hover{
+	color: white;
+	transform: scale(1.2, 1.2);
+}
+
+.author{
+	
+	font-weight: bold;
+	font-style: italic;
+	
+}
+#grid-container{
+		
+	opacity: 0.75;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+	align-content: center;
+	
+}
+
+#grid-container > div > img{
+	width: 600px;
+	height: 400px;
+	border: 20px solid transparent;
+	border-image: url("../images/globeBorder.png") 31 round;
+}
+
+#grid-container:hover{
+	
+	opacity: 1;
+	
+}
+
+#services > ul > li > img{
+	
+	box-shadow: 5px 5px;
+	border-radius: 0% 5% 5%;
+	
+}
+
+#services > ul > li > img:hover{
+	
+	transform: scale(1.1, 1.1);
+	
+}
+
