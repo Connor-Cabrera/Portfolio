@@ -1,1 +1,1 @@
-I am currently taking this class while completing this application.
+Various Artificial Intelligence Assignments covering a wide array of sub topics.
