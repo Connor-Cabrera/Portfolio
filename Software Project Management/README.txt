@@ -1,0 +1,1 @@
+This is the full documentation for the Client-Developer Project Management course further explained in my Resume.
